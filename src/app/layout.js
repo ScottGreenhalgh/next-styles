@@ -15,6 +15,13 @@ const geistMono = localFont({
 export const metadata = {
   title: "Mushroom Tracker",
   description: "Learning more about different mushrooms | Mushroom Tracker",
+  openGraph: {
+    title: "Mushroom Tracker",
+    description: "Learning more about different mushrooms | Mushroom Tracker",
+    type: "website",
+    url: "https://next-styles-9wp3y9iht-scotts-projects-9febea56.vercel.app/",
+    //image: "https://next-comments-postgres.vercel.app/og-image.png",
+  },
 };
 
 export default function RootLayout({ children }) {

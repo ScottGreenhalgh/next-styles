@@ -88,7 +88,8 @@ export function findBySlug(slug) {
       `checking mushroom name: ${mushroom.name}, against slug: ${slug}`
     );
     if (
-      mushroom.name.toLowerCase().replace(/ /g, "-").replace(/'/g, "") === slug
+      mushroom.name.toLowerCase().replace(/ /g, "-").replace(/'/g, "") ===
+      slug
     ) {
       console.log("mushroom found by slug");
       console.log(`Mushroom is ${mushroom}`);

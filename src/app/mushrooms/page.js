@@ -16,7 +16,7 @@ export default function MushroomsPage() {
             href={`mushrooms/${mushroom.name
               .toLowerCase()
               .replace(/ /g, "-")
-              .replace(/'/g, "^")}`}
+              .replace(/'/g, "")}`}
           >
             <h3>{mushroom.name}</h3>
           </Link>
